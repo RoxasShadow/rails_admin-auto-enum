@@ -11,4 +11,4 @@ end
 ```
 
 # Setup
-Just append `gem rails_admin-auto-enum` to your `Gemfile`.
+Just append `gem rails_admin-auto-enum'` to your `Gemfile`.
