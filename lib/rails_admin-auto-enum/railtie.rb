@@ -12,7 +12,7 @@ module RailsAdminAutoEnum
   class Railtie < Rails::Railtie
     initializer 'rails_admin.auto_enum' do
       ActiveSupport.on_load(:active_record) do
-        ::ActiveRecord::Base.send(:extend, RailsAdminAutoEnum::ActiveRecord::RailsAdminEnum)
+        ::ActiveRecord::Base.send(:extend, ::RailsAdminAutoEnum::ActiveRecord::RailsAdminEnum)
       end
     end
   end
